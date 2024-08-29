@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: school_reg_demo
+  datasource:
+    hikari:
+      maximum-pool-size: 100
+    password: ''
+    url: jdbc:mysql://192.168.1.103:3306/?autoReconnect=true&createDatabaseIfNotExist=true
+    username: developer
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    properties:
+      hibernate:
+      dialect: org.hibernate.dialect.MySQL8Dialect
+system-properties:
+  student-i-dPrefix: 'KLCTST'
+  teacher-i-dPrefix: 'KLCTTR'

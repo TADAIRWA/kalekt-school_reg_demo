@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>zw.co.erosam</groupId>
+        <groupId>com.kalekt</groupId>
         <artifactId>school_reg_demo</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <groupId>zw.co.erosam</groupId>
+    <groupId>com.kalekt</groupId>
     <artifactId>school_reg_demo.repository</artifactId>
     <version>${parent.version}</version>
 
@@ -21,7 +21,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>zw.co.erosam</groupId>
+            <groupId>com.kalekt</groupId>
             <artifactId>school_reg_demo.model</artifactId>
             <version>${parent.version}</version>
         </dependency>

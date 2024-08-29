@@ -1,4 +1,4 @@
-package zw.co.erosam.school_reg_demo;
+package com.kalekt.school_reg_demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
